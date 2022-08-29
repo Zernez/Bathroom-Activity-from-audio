@@ -10,6 +10,15 @@
 
 ## Microphone equipment
 
+Lippa Trådløs Lavalier Mikrofon, USB-C
+
+<img src="https://github.com/Zernez/Bathroom-Audio-Classification_Feasibility/blob/main/Microphone.jpg" width="200">
+
+USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
+
+<img src="https://github.com/Zernez/Bathroom-Audio-Classification_Feasibility/blob/main/USB-A-C-Converter.jpg" width="180">
+
+
 
 
 
