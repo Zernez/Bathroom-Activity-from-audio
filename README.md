@@ -21,20 +21,29 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 ## Lab-benchmark notebook
 
 •	In "notebook" folder, a jupyter-notebook is placed. 
+
 •	Audio .wav sample data are not present due to memeory-space requirements, a .csv file into "meta" folder contain the info for produce a dataset into the notebook. 
+
 •	ETL provided in 1D (original Librosa output) and 3D (RGB, needed for DenseNet and EfficientNet) from mel-spectrum images.
+
 •	Different models are implemented from older to newest known for image classification (Resnet34, Resnet50, DenseNet201, EfficientNet_V2_L). Models are pre-weighted  from Pytorch ufficial settings, for reduce epochs.
+
 •	In this notebook is possible to have a first glance of accuracy only from given dataset.
 
 ## Labels selected
 •	vacuum_cleaner, water_drops, washing_machine, brushing_teeth, toilet_flush
+
 •	Future candidate to discuss for inserting: Breathing, Showering, Footsteps, Open-Faucet
 
 ## TODO
 •	Confusion-matrix needed, some feature maybe are not so pertinent e.g. "water-drops"
+
 •	Feature for audio extract, labeling and appropriate merge into pre-existent database and dataframe.
+
 •	Discovery of tuning some hyperparameters, e.g. learning rate and padding (maybe not useful in this case) 
+
 •	Evaluation of possible usage of Google COLAB.
+
 •	Extraction of audio data in different places and decision about metrics of evaluation.
 
 
