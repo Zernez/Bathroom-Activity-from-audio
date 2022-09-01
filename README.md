@@ -30,12 +30,16 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 
 •	In this notebook is possible to have a first glance of accuracy only from given dataset.
 
-## Labels selected
-•	vacuum_cleaner, water_drops, washing_machine, brushing_teeth, toilet_flush
+•	The validation label in this notebook is "toilet_flush" 
 
-•	Future candidate to discuss for inserting: Breathing, Showering, Footsteps, Open-Faucet
+## Labels selected
+
+•	"vacuum_cleaner", "water_drops", "washing_machine", "brushing_teeth", "toilet_flush"
+
+•	Future candidate to discuss for inserting: "breathing", "showering", "footsteps", "open_faucet", "washing_hands" 
 
 ## TODO
+
 •	Confusion-matrix needed, some feature maybe are not so pertinent e.g. "water-drops"
 
 •	Feature for audio extract, labeling and appropriate merge into pre-existent database and dataframe.
