@@ -42,7 +42,7 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 
 •	Discovery of tuning some hyperparameters, e.g. learning rate and padding (maybe not useful in this case) 
 
-•	Evaluation of possible usage of Google COLAB.
+•	Evaluation of possible usage of Google COLAB (models take up to 10 minutes to train-evaluation)
 
 •	Extraction of audio data in different places and decision about metrics of evaluation.
 
