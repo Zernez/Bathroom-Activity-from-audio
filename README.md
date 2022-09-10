@@ -30,11 +30,16 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 
 •	In this notebook is possible to have a first glance of accuracy only from given dataset.
 
-•	The validation label in this notebook is "toilet_flush" 
+•	The mel-visualization in this notebook is "toilet_flush"
+
+•	Provided function to record and save information for automatic ETL in a separate .csv file but marked in the same dataframe with folder #6
+
+•	Accuracy provided over 90% with "Densenet"
+
 
 ## Labels selected
 
-•	"vacuum_cleaner", "water_drops", "washing_machine", "brushing_teeth", "toilet_flush"
+•	"vacuum_cleaner", ~~"water_drops"~~, "washing_machine", "brushing_teeth", "toilet_flush"
 
 •	Future candidate to discuss for inserting: "breathing", "showering", "footsteps", "open_faucet", "washing_hands" 
 
@@ -42,13 +47,17 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 
 •	Confusion-matrix needed, some feature maybe are not so pertinent e.g. "water-drops"
 
-•	Feature for audio extract, labeling and appropriate merge into pre-existent database and dataframe.
+•	The microphone only record 1 second of pure sound and then auto-suppress enviromental sounds...
 
-•	Discovery of tuning some hyperparameters, e.g. learning rate and padding (maybe not useful in this case) 
+~~•	Feature for audio extract, labeling and appropriate merge into pre-existent database and dataframe.~~
+
+~~•	Discovery of tuning some hyperparameters, e.g. learning rate and padding (maybe not useful in this case)~~
 
 •	Evaluation of possible usage of Google COLAB (models take up to 10 minutes to train-evaluation)
 
 •	Extraction of audio data in different places and decision about metrics of evaluation.
+
+•	Provide a snippet for single prediction with a single file for testing
 
 
 
