@@ -1,0 +1,5 @@
+2022-11-06 11:17:42,448 - INFO - Start test iter no: 0
+2022-11-06 11:17:42,449 - INFO - Time elspased for extracting and store audio is 6.678229110000302 seconds
+2022-11-06 11:17:51,308 - INFO - Start test iter no: 1
+2022-11-06 11:17:51,309 - INFO - Time elspased for extracting and store audio is 5.318050173000302 seconds
+2022-11-06 11:17:54,073 - INFO - Time elspased for elaborate a Densenet prediction is 1.7623520920001283 seconds

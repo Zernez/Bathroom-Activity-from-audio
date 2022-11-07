@@ -1,0 +1,5 @@
+2022-11-06 11:14:12,419 - INFO - Start test iter no: 0
+2022-11-06 11:14:12,420 - INFO - Time elspased for extracting and store audio is 6.689129374000004 seconds
+2022-11-06 11:14:19,943 - INFO - Start test iter no: 1
+2022-11-06 11:14:19,945 - INFO - Time elspased for extracting and store audio is 5.248370539999996 seconds
+2022-11-06 11:14:21,457 - INFO - Time elspased for elaborate a Alexnet prediction is 0.5100170290002097 seconds

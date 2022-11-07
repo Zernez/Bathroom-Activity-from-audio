@@ -1,0 +1,5 @@
+2022-11-06 11:29:20,218 - INFO - Start test iter no: 0
+2022-11-06 11:29:20,219 - INFO - Time elspased for extracting and store audio is 8.18732494599999 seconds
+2022-11-06 11:29:34,593 - INFO - Start test iter no: 1
+2022-11-06 11:29:34,594 - INFO - Time elspased for extracting and store audio is 6.6650286079998295 seconds
+2022-11-06 11:29:39,202 - INFO - Time elspased for elaborate a VGG prediction is 3.606937051999921 seconds

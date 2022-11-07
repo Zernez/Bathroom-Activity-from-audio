@@ -1,0 +1,5 @@
+2022-11-06 11:26:18,081 - INFO - Start test iter no: 0
+2022-11-06 11:26:18,083 - INFO - Time elspased for extracting and store audio is 6.6844937000000755 seconds
+2022-11-06 11:26:27,859 - INFO - Start test iter no: 1
+2022-11-06 11:26:27,860 - INFO - Time elspased for extracting and store audio is 5.279512730000079 seconds
+2022-11-06 11:26:31,619 - INFO - Time elspased for elaborate a Resnet152 prediction is 2.7573534149996703 seconds
