@@ -38,19 +38,19 @@ ReSpeaker 2-Mics Pi HAT
 
 ## TODO
 
-~~•	Confusion-matrix needed
+~~•	Confusion-matrix needed~~
 
-~~•	The microphone only record 1 second of pure sound and then auto-suppress enviromental sounds...
+~~•	The microphone only record 1 second of pure sound and then auto-suppress enviromental sounds...~~
 
 ~~•	Feature for audio extract, labeling and appropriate merge into pre-existent database and dataframe.~~
 
 ~~•	Discovery of tuning some hyperparameters, e.g. learning rate and padding (maybe not useful in this case)~~
 
-~~•	Evaluation of possible usage of Google COLAB (models take up to 10 minutes to train-evaluation)
+~~•	Evaluation of possible usage of Google COLAB (models take up to 10 minutes to train-evaluation)~~
 
-~~•	Extraction of audio data in different places and decision about metrics of evaluation.
+~~•	Extraction of audio data in different places and decision about metrics of evaluation.~~
 
-~~•	Provide a snippet for single prediction with a single file for testing
+~~•	Provide a snippet for single prediction with a single file for testing~~
 
 
 
