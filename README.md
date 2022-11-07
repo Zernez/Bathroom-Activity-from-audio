@@ -10,6 +10,8 @@
 
 ## Microphone equipment
 
+Raspberry Pi4
+
 ReSpeaker 2-Mics Pi HAT
 
 ## Lab-benchmark notebook
