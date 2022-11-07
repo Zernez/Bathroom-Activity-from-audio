@@ -10,13 +10,7 @@
 
 ## Microphone equipment
 
-Lippa Trådløs Lavalier Mikrofon, USB-C
-
-<img src="https://github.com/Zernez/Bathroom-Audio-Classification_Feasibility/blob/main/Microphone.jpg" width="200">
-
-USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
-
-<img src="https://github.com/Zernez/Bathroom-Audio-Classification_Feasibility/blob/main/USB-A-C-Converter.jpg" width="180">
+ReSpeaker 2-Mics Pi HAT
 
 ## Lab-benchmark notebook
 
@@ -24,9 +18,9 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 
 •	Audio .wav sample data are not present due to memeory-space requirements, a .csv file into "meta" folder contain the info for produce a dataset into the notebook. 
 
-•	ETL provided in 1D (original Librosa output) and 3D (RGB, needed for DenseNet and EfficientNet) from mel-spectrum images.
+•	ETL provided in 1D (original Librosa output) transformed into 3D from mel-spectrum images.
 
-•	Different models are implemented from older to newest known for image classification (Resnet34, Resnet50, DenseNet201, EfficientNet_V2_L). Models are pre-weighted  from Pytorch ufficial settings, for reduce epochs.
+•	Different models are implemented from older to newest known for image classification (Alexnet, VGG, Resnet50, Resnet152, DenseNet, EfficientNet). Models are pre-weighted from Pytorch ufficial settings, for reduce epochs.
 
 •	In this notebook is possible to have a first glance of accuracy only from given dataset.
 
@@ -34,30 +28,29 @@ USB-A / USB-C KONVERTER / OTG ADAPTER XQ-ZH0011 - USB 3.0 - SORT
 
 •	Provided function to record and save information for automatic ETL in a separate .csv file but marked in the same dataframe with folder #6
 
-•	Accuracy provided over 90% with "Densenet"
+•	Accuracy provided over 90% with "Efficientnet"
+
 
 
 ## Labels selected
 
-•	"vacuum_cleaner", ~~"water_drops"~~, "washing_machine", "brushing_teeth", "toilet_flush"
-
-•	Future candidate to discuss for inserting: "breathing", "showering", "footsteps", "open_faucet", "washing_hands" 
+•	"vacuum_cleaner", ~~"water_drops"~~, "washing_machine", "brushing_teeth", "toilet_flush", "showering"
 
 ## TODO
 
-•	Confusion-matrix needed, some feature maybe are not so pertinent e.g. "water-drops"
+~~•	Confusion-matrix needed
 
-•	The microphone only record 1 second of pure sound and then auto-suppress enviromental sounds...
+~~•	The microphone only record 1 second of pure sound and then auto-suppress enviromental sounds...
 
 ~~•	Feature for audio extract, labeling and appropriate merge into pre-existent database and dataframe.~~
 
 ~~•	Discovery of tuning some hyperparameters, e.g. learning rate and padding (maybe not useful in this case)~~
 
-•	Evaluation of possible usage of Google COLAB (models take up to 10 minutes to train-evaluation)
+~~•	Evaluation of possible usage of Google COLAB (models take up to 10 minutes to train-evaluation)
 
-•	Extraction of audio data in different places and decision about metrics of evaluation.
+~~•	Extraction of audio data in different places and decision about metrics of evaluation.
 
-•	Provide a snippet for single prediction with a single file for testing
+~~•	Provide a snippet for single prediction with a single file for testing
 
 
 
