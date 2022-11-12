@@ -13,11 +13,15 @@ import logging
 time_pred = 5
 audio_database = 5
 epochs= 2
+keep_cycle= 20
 predictions= []
 model_no= 0
 
 print('Enter the number for: 0-Alexnet, 1-Densenet, 2-Efficientnet, 3-VGG, 4-Resnet50, 5-Resnet152')
 model_no = int(input())
+print ()
+print('Enter \'y\' if you want use level trigger')
+trigger = input()
 
 if model_no == 0:
     model= PredictorAlx()
@@ -43,8 +47,17 @@ else:
 
 audio= AudioHandler(time_pred, audio_database)
 operative_count= 0
+keep_alive= 0
 
 while (operative_count<= epochs):
+    
+    if (trigger== "y" && keep_alive< 1):
+        while (True):
+            dB= audio.check_level_sound()
+            if (dB> -15):
+                keep_alive= keep_cycle
+                break
+            time.sleep(1)
 
     if operative_count== 0:
         className= model.__class__
@@ -162,6 +175,7 @@ while (operative_count<= epochs):
         del prediction[0]
 
     operative_count+= 1
+    keep_alive-= 1
     
         
 
