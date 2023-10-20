@@ -1,4 +1,4 @@
-# Bathroom-Audio-Classification_Feasibility
+# Bathroom audio activity classification feasibility
 
 •	Sensor Fusion of Ambient and Wearable Sensors and Audio Classification for the Detection of Events of Daily Living technologies: Audio Classification using PyTorch and Librosa, MQTT/AQMP/HTTP, existing ambient gateways with sensors for sensor fusion and possible the TI Sensor Tag and/or an Android Wear device in this project.
 
@@ -31,7 +31,6 @@ ReSpeaker 2-Mics Pi HAT
 •	Provided function to record and save information for automatic ETL in a separate .csv file but marked in the same dataframe with folder #6
 
 •	Accuracy provided over 90% with "Efficientnet"
-
 
 
 ## Labels selected
